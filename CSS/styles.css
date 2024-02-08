@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.space{
+    margin-left: 7%;
+    margin-right: 7%;
+}
+/* banner container styles  */
+
+header{
+    background-color: #f1c6d0;
+}
+
+.banner-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding-top: 2rem;
+}
+
+.banner-title{
+    font-size: 3rem;
+    font-weight: 800;
+    color: #272727;
+    margin-bottom: 1.5rem;
+}
+
+.banner-btn{
+    border: none;
+    background-color: #E55473;
+    padding: 0.9rem 1.5rem;
+    border-radius: 5px;
+    color: #fff;
+    margin-top: 1.5rem;
+}
+
+.banner-img img{
+    width: 100%;;
+    height: auto;
+}
+
+/* our featured flower container styles  */
+
+.our-featured-container{
+    margin: 3rem 0;
+}
+
+.our-featured-title{
+    font-size: 2rem;
+    font-weight: 800;
+    color: #272727;
+    margin-bottom: 1.5rem;
+}
+.our-featured-content{
+    text-align: center;
+}
+
+.featured-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 4rem;
+}
+
+.item{
+    text-align: center;
+    padding: 2rem;
+}
+.item1{
+    background-color: #e6b0ca;
+    border: none;
+    border-top-left-radius: 40%;
+    border-top-right-radius: 40%;
+    padding: 2rem;
+    margin-bottom: 1rem;
+}
+.item2{
+    background-color: #bce8eb;
+    border: none;
+    border-top-left-radius: 40%;
+    border-top-right-radius: 40%;
+    padding: 2rem;
+    margin-bottom: 1rem;
+}
+.item3{
+    background-color: #6c8058;
+    border: none;
+    border-top-left-radius: 40%;
+    border-top-right-radius: 40%;
+    padding: 2rem;
+    margin-bottom: 1rem;
+}
+
+.item img{
+    height: 16rem;
+}
