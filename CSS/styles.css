@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 * {
     padding: 0;
     margin: 0;
+    font-family: "Lato", sans-serif;
 }
+
 
 .space {
     margin-left: 7%;
@@ -128,6 +131,37 @@ header {
 
 /* hot deal container styles  */
 
+.hot-deal-container{
+    margin-bottom: 3rem;
+}
+
+.hot-deal-container{
+    background-color: #E554738F;
+}
+
+.off-text{
+    color: #E55473;
+}
+
+.deal-content{
+    text-align: center;
+}
+
+.deal-title{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.hot-deal-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+/* Instagram container styles start from here  */
+
 
 
 
@@ -156,6 +190,9 @@ header {
     .services-content{
         flex-direction: column;
     }
+    .hot-deal-content{
+        flex-direction: column;
+    }
     
 }
 
@@ -168,7 +205,7 @@ header {
         margin-right: 3%;
     }
 
-    .banner-container,
+    
     .featured-items {
         flex-wrap: wrap;
     }
