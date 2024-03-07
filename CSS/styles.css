@@ -225,6 +225,26 @@ header {
     padding: 4rem;
 }
 
+/* footer container styles start from here  */
+footer{
+    background-color: #111010;
+    color: #fff;
+}
+
+.flower-text{
+    color: #E55473;
+}
+
+.footer-description{
+    margin-top: 24px;
+    margin-bottom: 2rem;
+}
+
+.footer-container {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    text-align: center;
+}
 
 
 
