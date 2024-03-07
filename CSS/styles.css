@@ -189,6 +189,42 @@ header {
     width: 100%;
 }
 
+/* Subscribe container styles start from here  */
+
+.subscribe-container{
+    margin-bottom: 3rem;
+    background-image: url('/Flower Asset/Rectangle 9.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.subscribe input{
+    height: 30px;
+    width: 400px;
+    padding: 0.4rem;
+    border: none;
+    border-radius: 8px;
+}
+
+.subscribe-btn{
+    border: none;
+    background-color: #E55473;
+    padding: 0.9rem 1.5rem;
+    border-radius: 5px;
+    color: #fff;
+    margin-top: 0.5rem;
+}
+
+.subscribe-content-title{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.subscribe-content{
+    text-align: center;
+    padding: 4rem;
+}
+
 
 
 
@@ -223,6 +259,29 @@ header {
     .instagram-images{
         grid-template-columns: repeat(1, 1fr);
     }
+    .subscribe input{
+        height: 30px;
+        width: 180px;
+        border: none;
+        border-radius: 8px;
+    }
+    .subscribe-container{
+        margin-bottom: 3rem;
+        background-image: url('/Flower Asset/Rectangle 9.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .subscribe-content-title{
+        font-size: 2rem;
+        margin-bottom: 0rem;
+    }
+    
+    .subscribe-content{
+        text-align: center;
+        padding: 0.5rem;
+    }
+    
     
 }
 
@@ -244,6 +303,13 @@ header {
     }
     .instagram-images{
         grid-template-columns: repeat(2, 1fr);
+    }
+    .subscribe input{
+        height: 30px;
+        width: 300px;
+        padding: 0.4rem;
+        border: none;
+        border-radius: 8px;
     }
     
 }
